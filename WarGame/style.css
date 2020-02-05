@@ -1,0 +1,100 @@
+body{
+    background-color: red;
+    color: gold;
+    text-align: center;
+    font-size: 1.4em;
+}
+h1{
+    text-decoration: underline overline;
+    font-size: 2.5em;
+}
+.button{
+    border: gold solid 2px;
+    border-radius: 10px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.display{
+    border: gold solid 5px;
+    height: 700px;
+}
+#uCard{
+    float: left;
+}
+#cCard{
+    float: right;
+}
+#uCard, #cCard{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    margin: 50px;
+    border-radius: 15px;
+    border: gold solid 2px;
+    color: black;
+}
+.uDisplay{
+    float: left;
+    width: 45%;
+}
+.cDisplay{
+    float: right:
+}
+.uDisplay, .cDisplay{
+    border-bottom: gold solid 1px;
+    height: 12%;
+}
+.TL{
+    text-align: left;
+    height: 50px;
+    margin-left: 10px;
+}
+.BR{
+    text-align: right;
+    margin-top: 235px;
+    margin-right: 10px;
+}
+.big{
+    font-size: 3em;
+    height: 50px;
+    margin-top: 135px;
+}
+#tieCards{
+    position: absolute;
+}
+#popup{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    visibility: hidden;
+    transform: translate(-50%, -50%);
+    background-color: red;
+}
+.spacer{
+    height: 300px;
+}
+.spacer2{
+    height: 100px;
+}
+.homepage{
+    opacity: .5;
+    border: black solid 1px;
+    width: 100px;
+    height: 65px;
+    padding: 5px;
+    text-shadow: 5px 5px 5px black;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+}
+.homepage a{
+    text-decoration: none;
+    color: black;
+}
+.homepage a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}

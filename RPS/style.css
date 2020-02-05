@@ -1,0 +1,190 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+.spacer{
+    height: 110px;
+}
+.spacer2{
+    height: 50px;
+}
+.heart{
+    font-size: 35px;
+    float: left;
+}
+.heart2{
+    font-size: 35px;
+    float: right;
+}
+#heart1, #heart2, #heart3, #heart4, #heart5, #heart6, #heart7, #heart8, #heart9, #heart10{
+    color: darkred;
+}
+
+#box{
+    background-color: white;
+    height: 37px;
+    width: 176px;
+    left: 176px;
+    position: absolute;
+    top: 70px;
+}
+#box2{
+    border: black solid 1px;
+    background-color: white;
+    height: 37px;
+    width: 176px;
+    left: 296px;
+    position: absolute;
+    top: 70px;
+}
+#popup{
+    height: 560px;
+    width: 500px;
+    border: black solid 1px;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 10;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    background-color: white;
+    z-index: 100;
+    color: black;
+}
+#winner{
+    text-align: center;
+}
+.playAgain{
+    margin-top: 200px;
+    margin-left: 175px;
+    width: 150px;
+    height: 60px;
+    border: black solid 1px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+}
+.playAgain:hover{
+    cursor: pointer;
+}
+#paper{
+    background-image: url("images/paper.png");
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    transition: 3s;
+    position: absolute;
+    cursor: pointer;
+    top: 32%;
+}
+#scissors{
+    background-image: url("images/scissors.png");
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    transition: 3s;
+    position: absolute;
+    cursor: pointer;
+    top: 42%;
+}
+#rock{
+    background-image: url("images/rock.png");
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    transition: 3s;
+    position: absolute;
+    cursor: pointer;
+    top: 21%;
+
+}
+.paper{
+    background-image: url("images/paper.png");
+    background-size: 100% 100%;
+}
+.scissors{
+    background-image: url("images/scissors.png");
+    background-size: 100% 100%;
+}
+.rock{
+    background-image: url("images/rock.png");
+    background-size: 100% 100%;
+}
+img{
+    width: 99%;
+    height: 110px;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+#compchoice{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 32%;
+    left: 105%;
+    
+}
+@keyframes P1{
+    0%{
+        left: 0%;
+    }
+    50%{
+        left: 20%;
+        top: 25%;
+        width: 200px;
+        height: 200px;
+    }
+    100%{
+        left: 45%;
+        top: 32%;
+        transform: rotate(360deg);
+        width: 50px;
+        height: 50px;
+        
+    }
+}
+@keyframes P2{
+    0%{
+        left: 105%;
+    }
+    50%{
+        left: 80%;
+        top: 25%;
+        width: 200px;
+        height: 200px;
+    }
+    100%{
+        left: 45%;
+        top: 32%;
+        transform: rotate(360deg);
+        width: 50px;
+        height: 50px;
+        
+    }
+}
+.homepage{
+    opacity: .5;
+    border: black solid 1px;
+    width: 100px;
+    height: 65px;
+    padding: 5px;
+    text-shadow: 5px 5px 5px black;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+}
+.homepage a{
+    text-decoration: none;
+    color: black;
+}
+.homepage a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}
+/*-----------------------------------------------------*/

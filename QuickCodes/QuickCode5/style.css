@@ -1,0 +1,163 @@
+/*Default sizes for extra small screens (phones, less than 768px)*/
+body{
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+.spacer{
+    height: 30px;
+}
+#AreaB p{
+    padding: 10px;
+}
+#AreaA{
+    background-color: lightcoral;
+    float: left;
+    border-radius: 10px 10px 0px 0px;
+}
+#AreaB{
+    background-color: lightcoral;
+    border-radius: 0px 0px 10px 10px;
+    float: right;
+}
+#AreaD{
+    background-color: lightcoral;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 15px;
+}
+.clearfix{
+    clear: both;
+}
+img{
+    border-radius: 10px 10px 0px 0px;
+}
+/*Navbar------------------------------------*/
+
+ul.topnav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    overflow: hidden;
+}
+ul.topnav li{
+    float: left;
+}
+
+ul.topnav li a{
+    display: none;
+    color: darkred;
+    text-align: center;
+    padding: 4px 0;
+    width: 225px;
+    text-decoration-color: none;
+    transition: 0.7s;
+    text-decoration: none;
+    height: 20px;
+}
+
+ul.topnav li.icon{
+    float: right;
+}
+
+ul.topnav li a:hover{
+    background-color: darkred;
+    color: white;
+}
+
+ul.topnav li.icon a{
+    display: inline-block;
+    width: 50px;
+}
+
+#navbar{
+    position: fixed;
+    height: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+ul.topnav.responsive{
+    position: relative;
+    padding-top: 30px;
+}
+
+ul.topnav.responsive li.icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ul.topnav.responsive li{
+    float: none;
+    display: inline;
+}
+ul.topnav.responsive li a{
+    display: block;
+    width: 100%;
+}
+ul.topnav.responsive li.icon{
+    width: 50px;
+}
+        
+/*Default sizes for small screens (tablets, 900px)*/
+@media (min-width: 900px) {
+
+img{
+    border-radius: 10px 0px 0px 10px;
+}    
+#AreaAB{
+    background-color: lightcoral;
+    overflow: auto;
+    border-radius: 10px;
+}
+#AreaA{
+    width: 55%;
+    background-color: lightcoral;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+}    
+
+#AreaB{
+    width: 45%;
+    float: left;
+    background-color: lightcoral;
+    border-radius: 0px 10px 10px 0px;
+    float: right;
+}
+#AreaB p{
+    padding: 5px;
+}
+#AreaD{
+    padding: 5px;
+    margin-top: 15px;
+}
+    
+ul.topnav li a{
+    display: inline-block;
+}
+ul.topnav li.icon a{
+    display: none;
+}
+ul.topnav.responsive li.icon a{
+    display: inline-block;
+    width: 50px;
+}
+    .homepage{
+    opacity: .5;
+    border: black solid 1px;
+    width: 100px;
+    height: 65px;
+    padding: 5px;
+    text-shadow: 5px 5px 5px black;
+    background-color: white;
+    position: fixed;
+}
+.homepage a{
+    text-decoration: none;
+    color: black;
+}
+.homepage a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}

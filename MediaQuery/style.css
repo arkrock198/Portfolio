@@ -1,0 +1,165 @@
+/*Default sizes for extra small screens (phones, less than 768px)*/
+body{
+    background-color: red;
+}
+.spacer{
+    height: 30px;
+}
+#footer{
+    position: fixed;
+    height: 30px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: grey;
+    border-top: black solid 2px;
+}
+#AreaA{
+    background-color: lightblue;
+}
+#AreaB{
+    background-color: aqua;
+}
+#AreaC{
+    background-color: azure;
+}
+#AreaD{
+    background-color: yellow;
+}
+.clearfix{
+    clear: both;
+}
+/*Navbar------------------------------------*/
+
+ul.topnav {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    overflow: hidden;
+}
+ul.topnav li{
+    float: left;
+}
+
+ul.topnav li a{
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 4px 0;
+    width: 150px;
+    text-decoration-color: none;
+    transition: 0.7s;
+    text-decoration: none;
+}
+
+ul.topnav li.icon{
+    float: right;
+}
+
+ul.topnav li a:hover{
+    background-color: grey;
+}
+
+ul.topnav li.icon a{
+    display: inline-block;
+    width: 50px;
+}
+
+#navbar{
+    position: fixed;
+    height: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+ul.topnav.responsive{
+    position: relative;
+    padding-top: 30px;
+}
+
+ul.topnav.responsive li.icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+ul.topnav.responsive li{
+    float: none;
+    display: inline;
+}
+ul.topnav.responsive li a{
+    display: block;
+    width: 100%;
+}
+ul.topnav.responsive li.icon{
+    width: 50px;
+}
+        
+/*Default sizes for small screens (tablets, 768px to 991px)*/
+@media (min-width: 768px) {
+body{
+    background-color: blue;
+}
+#AreaB, #AreaC{
+    width: 50%;
+    float: left;
+}
+    
+ul.topnav li a{
+    display: none;
+}
+ul.topnav.responsive li.icon a{
+    display: inline-block;
+    width: 50px;
+}
+
+            
+/*Default sizes for medium screens (small desktops, 992px to 1199px)*/
+@media (min-width: 992px) {
+ body{
+    background-color: purple;
+} 
+#AreaBC{
+    width: 40%;
+    float: left;
+}
+#AreaB, #AreaC{
+    width: 100%;
+    float: left;
+}
+#AreaA{
+    width: 60%;
+    float: left;
+}
+
+#top{
+    background-color: bisque;
+}
+}
+            
+/*Default sizes for large screens (large desktops, over 1200px)*/
+@media (min-width: 1200px) {
+body{
+    background-color: green;
+}           
+}
+.homepage{
+    opacity: .5;
+    border: black solid 1px;
+    width: 100px;
+    height: 65px;
+    padding: 5px;
+    text-shadow: 5px 5px 5px black;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+}
+.homepage a{
+    text-decoration: none;
+    color: black;
+}
+.homepage a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}

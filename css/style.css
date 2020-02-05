@@ -1,0 +1,123 @@
+/*Portfolio--------------------------------------------*/
+body{
+    background-image: url(../images/background.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    padding-top: 70px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+html, body {
+    margin: 0;
+}
+
+/*Navbar-------------------------------------------------*/
+nav{
+    text-shadow: none;
+}
+.navbar-inverse a{
+    color: white;
+}
+.navbar{
+    background-color: #000000;
+    border-bottom: blue solid 1px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: lightgray;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+}`
+.navbar-inverse .navbar-brand:hover {
+  color: lightgray;
+}
+/*UHS Logo*/
+img{
+    width: 35px;
+    height: 35px;
+    margin-top: -25%;
+    margin-left: -10%;
+    border-radius: 100%;
+}
+.spacer{
+    height: 100px;
+}
+
+/*Footer-------------------------------------------------*/
+footer{
+    background-color: #000000;
+    border-top: solid black 2px;
+    width: 100%;
+    border-top: solid blue 1px;
+}
+footer small, footer h4{
+    color: white;
+}
+footer a{
+    text-decoration: underline;
+    text-shadow: 5px 5px 5px black;
+    color: white;
+}
+footer a:hover{
+    opacity: .9;
+    text-decoration: none;
+    color: white;
+}
+
+/*Jumbotron----------------------------------------------*/
+.jumbotron{
+    background-color: aqua;
+    background-image: url(../images/jumbotron.jpg);
+    background-size: 100% 100%;
+}
+
+/*Typing Effect------------------------------------------*/
+.typewriter h1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/*Wells--------------------------------------------------*/
+.codes{
+    background-color: black;
+    opacity: .7;
+}
+.codes .row{
+    border: black outset 1px;
+}
+.codes .row:hover{
+    border: inset;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+.codes a{
+    color: white;
+}
+.codes a:hover{
+    text-decoration: none;
+}
+.about p{
+    text-align: justify;
+}

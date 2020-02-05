@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cool</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="homepage"><h4><a href="../../index.html">Back to homepage</a></h4></div>
+<!--        Container-------------------------------------->
+        <div class="container" id="field">
+            <div class="ball" id="ball1" onclick="targetCertain(1)"><h1>1</h1></div>
+        </div>
+<!--        Buttons---------------------------------------->
+        <div class="bbox">
+            <div class="spacer"></div>
+            <div class="button" onclick="left()">&#8592;</div>
+            <div class="button" onclick="right()">&#8594;</div>
+            <div class="button" onclick="up()">&#8593;</div>
+            <div class="button" onclick="down()">&#8595;</div>
+            <div class="button" onclick="circle()"><div class="circle"></div></div>
+            <div class="button" onclick="square()"><div class="square"></div></div>
+            <div class="button smallfont nopadding" onclick="goUp()">U<br>P</div>
+            <div class="button smallfont nopadding" onclick="goDown()">D<br>O<br>W<br>N</div>
+            <div class="button smallfont nopadding" onclick="grow()">G<br>R<br>O<br>W</div>
+            <div class="button smallfont nopadding" onclick="shrink()">S<br>H<br>R<br>I<br>N<br>K</div>
+            <div class="button" onclick="weird()">?</div>
+            <div class="button" onclick="create()">new</div>
+            <div class="button" id="xray" onclick="target()">1</div>
+            <input class="button2" type = "text" id = "TextBox" value = "Enter Color/Hexcode Here!" onclick="displayNone('TextBox')"/>
+            <div class="button4" onclick="color()">Enter</div>
+            <div class="button3" onclick="refresh()">Reset</div>
+            
+        </div>
+        
+<!--        Script----------------------------------------->
+        <script src="script.js"></script>
+
+    </body>
+</html>
+

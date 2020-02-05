@@ -1,0 +1,322 @@
+/*Cursor-------------------------------------------------------*/
+html:hover{
+    cursor: url(images/cursor.cur), none;
+}
+
+/*Body---------------------------------------------------------*/
+body{
+    text-align: center; 
+    background-color: white;
+    background-image: url(images/background.png);
+    width: 960px;
+    margin: auto;
+}
+
+/*Images-------------------------------------------------------*/
+img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Spacers and Clearfixes---------------------------------------*/
+.spacer{
+    height: 9px;
+}
+.bigspacer{
+    height: 50px;
+}
+.clearfix{
+    clear: both;
+}
+.serspacer{
+    height: 27px;
+}
+
+/*Stray Boxes--------------------------------------------------*/
+
+.rightside{
+    width: 480px;
+    float: right;
+}
+.leftside{
+    width: 480px;
+    float: left;
+}
+.header{
+    background-color: mediumaquamarine;
+    border-radius: 50px;
+    box-shadow: 0px 0px 1px 1px;
+    margin-top: 50px;
+    width: 480px;
+}
+.rbox1, .lbox1{
+    background-color: darkgrey;
+    margin: 0px;
+    border: black solid 3px;
+    height: 340px;
+    width: 476px;
+    margin-top: 9px;
+}
+.lbox1 h1{
+    font-size: 2.5em;
+}
+.rbox2, .lbox2{
+    background-color: lightgrey;
+    margin: 0px;
+    border: black solid 3px;
+    height: 240px;
+    width: 470px;
+    margin-top: 9px;
+}
+.rbox2{
+    float: right;
+}
+
+/*Text Styling-------------------------------------------------*/
+.lbox1 h1{
+    font-size: 2.5em;
+}
+.rbox2 h2, .lbox2 h2{
+    text-decoration: underline;
+} 
+h1, h2, h3, h4{
+   font-family: 'Droid Serif', serif;
+}
+.rbox2 ul{
+    font-size: 1.25em;
+}
+ul{
+    text-align: left;
+}
+
+/*Links----------------------------*/
+.footer a{
+    color: blue;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 20%px;
+    padding: 5px;
+    text-decoration: underline;
+}
+.footer a:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: url(images/cursor.cur), none;
+    text-decoration: none;
+    background-color: grey;
+    border: black solid 1px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+.footer a:active{
+    opacity: .5;
+}
+.aboutus p{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+/*Footer-------------------------------------------------------*/
+.footer{
+    background-color: lightgrey;
+    float: bottom;
+    padding: 5px;
+    height: 140px;
+    border: black solid 3px;
+    width: 945px;
+    margin-top: 9px;
+    margin-bottom: 10px;
+}
+.fbox{
+    width: 33.33333333333333333333333333333333333%;
+    float: left;
+    height: 60px;
+}
+
+/*Navbar-------------------------------------------------------*/
+.navbar ul li{
+    width: 20%;
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    height: 28px;
+    width: 970px;
+    background-color: lightgrey;
+    position: fixed;
+    top: 0;
+    border: solid black 2px;
+    margin-left: -6px;
+    margin-top: -1px;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 9%;
+}
+.navbar a{
+    display: block;
+    width: 20%px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.navbar a:active{
+    opacity: .5;
+}
+
+.navbar a:hover{
+    background-color: grey;
+    border: black solid 1px;
+    border-bottom: solid black 2px;
+    margin-top: -1px;
+    text-decoration: none;
+    cursor: url(images/cursor.cur), none;
+}
+
+/*Services and Rooms-------------------------------------------*/
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.sbox{
+    height: 277px;
+    width: 277px;
+    background-color: white;
+    margin-left: 27px;
+    border: black solid 3px;
+}
+.sbox h3{
+    background-color: white;
+    opacity: .8;
+}
+.sbox p{
+    background-color: white;
+    opacity: .8;
+}
+.bbox{
+    background-color: darkgray;
+    border: black solid 3px;
+    width: 955px;
+    height: 1010px;
+}
+
+.bbox h1{
+    text-decoration: underline;
+}
+
+/*Images for services and rooms--------------------------------*/
+.breakfast{
+    background-image: url(images/breakfast.jpg);
+    background-size: 277px 277px;
+}
+.lunch{
+    background-image: url(images/lunch.jpg);
+    background-size: 277px 277px;
+}
+.dinner{
+    background-image: url(images/dinner.jpg);
+    background-size: 277px 277px;
+}
+.sdive{
+    background-image: url(images/skydive.jpg);
+    background-size: 277px 277px;
+}
+.tat{
+    background-image: url(images/tatoo.jpg);
+    background-size: 277px 277px;
+}
+.suite{
+    background-image: url(images/suite.jpg);
+    background-size: 277px 277px;
+}
+.undergr{
+    background-image: url(images/undergroundroom.jpg);
+    background-size: 277px 277px;
+}
+.underwa{
+    background-image: url(images/waterroom.jpg);
+    background-size: 277px 277px;
+}
+.normalroom{
+    background-image: url(images/normalhotelroom.jpg);
+    background-size: 277px 277px;
+}
+
+/*Our Location-------------------------------------------------*/
+iframe{
+    float: left;
+}
+
+.location p{
+    margin-right: 10px;
+}
+
+/*Our Founder--------------------------------------------------*/
+.bigbox{
+    background-color: darkgray;
+    border: black solid 3px;
+    width: 955px;
+    height: 850px;margin-top: 10px;
+}
+.bigbox h1{
+    text-decoration: underline;
+}
+.founder{
+    background-image: url(images/founder.jpg);
+    background-size: 100% 500px;
+    margin-left: 27px;
+    background-color: white;
+    width: 93%;
+    height: 500px;
+}
+.founder p, .founder h3{
+    background-color: white;
+    opacity: 0.8;
+}
+.rbox3{
+    background-color: lightgrey;
+    margin: 0px;
+    border: black solid 3px;
+    height: 210px;
+    width: 91%;;
+    margin-top: 9px;
+    margin-left: 27px;
+    text-align: justify;
+    padding: 10px;
+}
+.rbox3 h2{
+    text-decoration: underline;
+}
+.homepage{
+    opacity: .5;
+    border: black solid 1px;
+    width: 100px;
+    height: 65px;
+    padding: 5px;
+    text-shadow: 5px 5px 5px black;
+    background-color: white;
+    position: fixed;
+}
+.homepage a{
+    text-decoration: none;
+    color: black;
+}
+.homepage a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}

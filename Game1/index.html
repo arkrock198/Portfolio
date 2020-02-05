@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Picker Game</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="homepage"><h4><a href="../index.html">Back to homepage</a></h4></div>
+        
+        <div id="header" onclick="showLoser()">CHOOSE TILL YOU LOSE!!</div>
+        <div class="row">
+            <div id="circ1"class="circle y" onclick ="checkPick(1)"></div>
+            
+            <div id="circ2"class="circle o" onclick ="checkPick(2)"></div>
+            
+            <div id="circ3"class="circle y" onclick ="checkPick(3)"></div>
+            
+        </div>
+        
+        <div class="row">
+            <div id="circ4"class="circle o" onclick ="checkPick(4)"></div>
+            
+            <div id="circ5"class="circle y" onclick ="checkPick(5)"></div>
+            
+            <div id="circ6"class="circle o" onclick ="checkPick(6)"></div>
+            
+        </div>
+        
+        <div class="row">
+            <div id="circ7"class="circle y" onclick ="checkPick(7)"></div>
+            
+            <div id="circ8"class="circle o" onclick ="checkPick(8)"></div>
+            
+            <div id="circ9"class="circle y" onclick ="checkPick(9)"></div>
+            
+        </div>
+        
+        
+        
+        <div id="footer">
+            <div class="score">
+                <h2><span id="go1"></span>Player 1: <span id="p1Score"></span> </h2>
+            </div>
+            <div class="score">
+                <h2><span id="go2"></span>Player 2: <span id="p2Score"></span> </h2>
+            </div>
+        </div>
+        
+        
+        <div id="popup">
+            <h1>Sorry Player <span id="loserMess">--</span></h1>
+            <h1>You Lose</h1><br>
+            <h2>Player 1: <span id="popScore1"></span></h2>
+            <h2>Player 2: <span id="popScore2"></span></h2>
+            <div class="button" onclick="reStart()">Play Again</div>
+            <div class="button btn2" onclick="reSet()">Reset Scores</div>
+        </div>
+        <script src="script.js"></script>
+
+    </body>
+</html>
+

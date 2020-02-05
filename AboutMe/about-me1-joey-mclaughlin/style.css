@@ -1,0 +1,25 @@
+.homepage{
+    opacity: .5;
+    border: black solid 1px;
+    width: 100px;
+    height: 65px;
+    padding: 5px;
+    text-shadow: 5px 5px 5px black;
+    background-color: white;
+    position: fixed;
+}
+.homepage a{
+    text-decoration: none;
+    color: black;
+}
+.homepage a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}
+h1 {color: #d63030;
+    font-family: serif; 
+}
+            
+h2 { color: #132E55;
+    font-family: cursive; 
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body {
+                height: 100%;
+                margin: 0;
+            }
+            .area1 {
+                height: 100%;
+                background-color: darkorange;
+                position: relative;
+            }
+            .area2 {
+                height: 100%;
+                background-color: black;
+                position: relative;
+                color: white;
+            
+            }
+            .area3 {
+                height: 100%;
+                background-color: papayawhip;
+                position: relative;
+            
+            }
+            .centered {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border: solid purple 1px;
+            }
+            .downButton, .upButton {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                font-size: 3em;
+                font-weight: bolder;
+                border: gray solid 3px;
+                border-radius: 50%;
+                color: gray;
+                height: 50px;
+                width: 50px;
+                text-decoration: none;
+            }
+            .downButton:hover, .upButton:hover {
+                border-color: darkblue;
+                color: darkblue;
+            }
+            .downButton {
+                bottom: 2%;
+            }
+            .upButton {
+                top: 2%;
+            }
+            body {
+                overflow:hidden;
+                }
+            }
+            .homepage{
+                opacity: .5;
+                border: black solid 1px;
+                width: 100px;
+                height: 65px;
+                padding: 5px;
+                text-shadow: 5px 5px 5px black;
+                background-color: white;
+                position: fixed;
+                z-index: 2;
+            }
+            .homepage a{
+                text-decoration: none;
+                color: black;
+            }
+            .homepage a:hover{
+                text-decoration: none;
+                color: darkgrey;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div class="homepage"><h4><a href="../index.html">Back to homepage</a></h4></div>
+        <div class="area1" id="a1">
+            <div class="centered">
+                <h1>Welcome to Area One!</h1>
+            </div>
+            <a class="downButton" href="#a2">&#10225;</a>
+        </div>
+        <div class="area2" id="a2">
+            <a class="upButton" href="#a1">&#10224;</a>
+            <div class="centered" >
+                <h1>Welcome to Area Two!</h1>
+            </div>
+            <a class="downButton" href="#a3">&#10225;</a>
+        </div>
+        <div class="area3" id="a3">
+            <a class="upButton" href="#a2">&#10224;</a>
+            <div class="centered">
+                <h1>Welcome to Area Three!</h1>
+            </div>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+        <script>
+            $(document).ready(function(){
+              // Add smooth scrolling to all links
+              $("a").on('click', function(event) {
+
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+
+
+                  // Store hash
+                  var hash = this.hash;
+
+
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                  }, 800, function(){
+
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                  });
+                } // End if
+              });
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>What Should I Eat?</title>
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+    </head>
+    <body>
+<!--Code Here---------------------------------------------->
+        <div class="homepage"><h4><a href="../../index.html">Back to homepage</a></h4></div>
+        <h1>What Should I Eat?</h1>
+        <div class="container">
+            <div class="mealBox button" onclick="breakfast()"><h1>1<br>Breakfast</h1></div>
+            <div class="mealBox button" onclick="lunch()"><h1>2<br>Lunch</h1></div>
+            <div class="mealBox button" onclick="dinner()"><h1>3<br>Dinner</h1></div>
+            <div class="mealBox button" onclick="snack()"><h1>4<br>Snack</h1></div>
+        </div>
+        <h2 id="text">You should Have ________ for _________!</h2>
+        
+        <h1 class="planText">Weekly Meal Planner</h1>
+        <div class="plan button" onclick="plan()">PLAN</div>
+        <div class="cont2">
+            <div class="day" id="sun">
+                <h3 class="dayName">Sunday</h3>
+                <h3 class="dayCont">
+                Breakfast:<br>
+                    <span id="sunbreak"></span><br><br>
+                Lunch:<br>
+                    <span id="sunlunch"></span><br><br>
+                Dinner:<br>
+                    <span id="sundinner"></span>
+                </h3>
+            </div>
+            <div class="day" id="mon">
+                <h3 class="dayName">Monday</h3>
+                <h3 class="dayCont">
+                Breakfast:<br>
+                    <span id="monbreak"></span><br><br>
+                Lunch:<br>
+                    <span id="monlunch"></span><br><br>
+                Dinner:<br>
+                    <span id="mondinner"></span>
+                </h3>
+            </div>
+            <div class="day" id="tue">
+                <h3 class="dayName">Tuesday</h3>
+                <h3 class="dayCont">
+                Breakfast:<br>
+                    <span id="tuebreak"></span><br><br>
+                Lunch:<br>
+                    <span id="tuelunch"></span><br><br>
+                Dinner:<br>
+                    <span id="tuedinner"></span>
+                </h3>
+            </div>
+            <div class="day" id="wed">
+                <h3 class="dayName">Wednesday</h3>
+                <h3 class="dayCont">
+                Breakfast:<br>
+                    <span id="wedbreak"></span><br><br>
+                Lunch:<br>
+                    <span id="wedlunch"></span><br><br>
+                Dinner:<br>
+                    <span id="weddinner"></span>
+                </h3>
+            </div>
+            <div class="day" id="thu">
+                <h3 class="dayName">Thursday</h3>
+                <h3 class="dayCont">
+                Breakfast:<br>
+                    <span id="thubreak"></span><br><br>
+                Lunch:<br>
+                    <span id="thulunch"></span><br><br>
+                Dinner:<br>
+                    <span id="thudinner"></span>
+                </h3>
+            </div>
+            <div class="day" id="fri">
+                <h3 class="dayName">Friday</h3>
+                <h3 class="dayCont">
+                Breakfast:<br>
+                    <span id="fribreak"></span><br><br>
+                Lunch:<br>
+                    <span id="frilunch"></span><br><br>
+                Dinner:<br>
+                    <span id="fridinner"></span>
+                </h3>
+            </div>
+            <div class="day" id="sat">
+                <h3 class="dayName">Saturday</h3>
+                <h3 class="dayCont">
+                Breakfast:<br>
+                    <span id="satbreak"></span><br><br>
+                Lunch:<br>
+                    <span id="satlunch"></span><br><br>
+                Dinner:<br>
+                    <span id="satdinner"></span>
+                </h3>
+            </div>
+        </div>
+        <div class="cont3">
+            <h1>Add a <span id="addfood" onclick="changefood()">breakfast</span>:
+            <input class="button2" type = "text" id = "TextBox" value = "Enter food here!" onclick="displayNone('TextBox')"/><div class="button submit" onclick="submit()">Submit</div></h1>
+        </div>
+        
+<!--Script------------------------------------------------>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,136 @@
+          
+body{
+    text-align: center; 
+    background-color: white;
+}
+
+div{
+    border: black solid 0px;
+}         
+
+
+.spacer{
+    height: 28px;
+}
+
+.toplbox{
+    background-color: blue;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.bottomlbox{
+    background-color: lightgrey;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: blue;
+}
+
+img{
+    border-radius: 5px;
+    width: 80%;
+    box-shadow: 1px 0px 0px 2px;
+}
+.rightside{
+    width: 49.9%;
+    float: right;
+    margin-top: 5%;
+}
+.leftside{
+    width: 49.9%;
+    float: left;
+    text-align: left;
+}
+.clearfix{
+    clear: both;
+}
+.footer{
+    background-color: black;
+    color: white;
+    float: bottom;
+    padding: 50px;
+    height: 70px;
+}
+.footer a{
+    text-decoration: none;
+    color: red;
+}
+
+.footer a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.fbox{
+    width: 50%;
+    float: left;
+    height: 60px;
+    margin-top: -20px;
+    
+}
+
+.navbar ul li{
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    height: 25px;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    text-align: center;
+    width: 9%;
+    font-family: monospace;
+    font-weight: bold;
+}
+.navbar a{
+    text-decoration: none;
+    display: block;
+    width: 105px;
+    padding: 5px;
+    color: black;
+}
+
+.navbar a:hover{
+    background-color: black;
+    color: red;
+}
+.homepage{
+    opacity: .5;
+    border: black solid 1px;
+    width: 100px;
+    height: 65px;
+    padding: 5px;
+    text-shadow: 5px 5px 5px black;
+    background-color: white;
+    position: fixed;
+}
+.homepage a{
+    text-decoration: none;
+    color: black;
+}
+.homepage a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}
+

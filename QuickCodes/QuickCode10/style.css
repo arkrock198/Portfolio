@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 2.5em;
+}
+.mealBox{
+    background-color: blue;
+    border-radius: 15px;
+    transition: .2s;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+}
+.mealBox:hover{
+    background-color: darkblue;
+}
+.container{
+    top: 150px;
+    width: 900px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#text{
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+}
+.day{
+    background-color: green;
+    border-radius: 10px;
+    width: 150px;
+    float: left;
+    margin-left: 15px;
+}
+.cont2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 650px;
+    width: 1170px;
+}
+.dayCont{
+    font-family: 'Open Sans', sans-serif;
+}
+.plan{
+    width: 80px;
+    height: 15px;
+    background-color: coral;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 600px;
+    border-radius: 10px;
+    transition: .2s;
+}
+.plan:hover{
+    background-color: indianred;
+}
+.planText{
+    position: absolute;
+    top: 510px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cont3{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 950px;
+    width: 1100px;
+    height: 300px;
+    border: white solid 1px;
+}
+#addfood{
+    background-color: white;
+    color: black;
+}
+#addfood:hover{
+    cursor: pointer;
+}
+.button2{
+    color: white;
+    background-color: gray;
+    border: none;
+    font-size: 1em;
+    text-align: center;
+}
+.button:hover{
+    cursor: pointer;
+}
+.submit{
+    width: 150px;
+    height: 50px;
+    background-color: azure;
+    float: right;
+    margin-right: 50px;
+    color: black;
+}
+.homepage{
+    opacity: .5;
+    border: black solid 1px;
+    width: 100px;
+    height: 65px;
+    padding: 5px;
+    text-shadow: 5px 5px 5px black;
+    background-color: white;
+    position: fixed;
+    z-index: 2;
+}
+.homepage a{
+    text-decoration: none;
+    color: black;
+}
+.homepage a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}

@@ -1,0 +1,90 @@
+/*Bootstrap: About Me*/
+body{
+    background-color: darkred;
+    background-size: 100% 100%;
+    padding-top: 70px;
+    color: darkgrey;
+    text-shadow: 2px 2px 2px black;
+}
+
+.jumbotron{
+    background-image: url(http://www.planwallpaper.com/static/images/background-wallpapers-26.jpg);
+    background-size: 100% 200%;
+}
+.sample{
+    color: lightgrey;
+    text-shadow: 2px 2px 2px black;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+    background-color: darkred;
+    border: black solid 1px;
+}
+.summer .row p{
+    padding-top: 15px;
+}
+
+.well{
+    background-color: grey;
+    border: black solid 1px;
+    border-radius: 15px;
+}
+
+.well-inv{
+    border: none;
+    box-shadow: none;
+    border-radius: none;
+}
+.hover tbody tr:hover{
+    background-color: grey;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+.favorite:hover{
+    background-color: gold;
+    text-shadow: 10px 10px 10px black;
+}
+nav{
+    text-shadow: none;
+}
+.media img{
+    width: 175px;
+    height: 175px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.media p {
+    float: left;
+}
+.media{
+    margin-top: 10px;
+}
+.well{
+    margin: 5%;
+    width: 90%;
+    color: white;
+}
+.map{
+    box-shadow: 2px 2px 2px black;
+    border-radius: 15px;
+    border: black solid 1px;
+}
+footer{
+    background-color: grey;
+    color: white;
+}
+footer small{
+    color: white;
+}
+footer a{
+    color: white;
+    background-color: darkgrey;
+    text-decoration: underline overline;
+}
+footer a:hover{
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+}

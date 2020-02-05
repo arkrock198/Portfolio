@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+}
+div{
+    border: black solid 0px;
+}         
+.header{
+    background-color: lightblue;
+}
+.bluebox{
+    background-color: blue;
+    border-radius: 0px 200px;
+    color: white;
+    padding: 50px;
+}
+.greenbox{
+    background-color: green;
+    border-radius: 200px 0px;
+    color: white;
+    padding: 50px;
+}
+.leftside{
+    width: 50%;
+    float: left;
+    border-radius: 15px;
+}
+.rightside{
+    width: 50%;
+    float: right;
+    border-radius: 15px;
+}
+.clearfix{
+    clear: both;
+}
+.footer{
+    background-color: lightblue;
+    float: bottom;
+}
+.homepage{
+    opacity: .5;
+    border: black solid 1px;
+    width: 100px;
+    height: 65px;
+    padding: 5px;
+    text-shadow: 5px 5px 5px black;
+    background-color: white;
+    position: fixed;
+}
+.homepage a{
+    text-decoration: none;
+    color: black;
+}
+.homepage a:hover{
+    text-decoration: none;
+    color: darkgrey;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ultimate Rock Paper Scissors</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="homepage"><h4><a href="../index.html">Back to homepage</a></h4></div>
+<!--        Buttons----------------------------------------------------->
+        <img src="Images/Logo.png"/>
+        <div class="spacer"></div>
+<!--        Hearts--------------------------->
+            <span class="heart" name="heart" id="heart1">&#10084;</span>
+            <span class="heart" name="heart" id="heart2">&#10084;</span>
+            <span class="heart" name="heart" id="heart3">&#10084;</span>
+            <span class="heart" name="heart" id="heart4">&#10084;</span>
+            <span class="heart" name="heart" id="heart5">&#10084;</span>
+            
+            
+            <span class="heart2" name="heart" id="heart6">&#10084;</span>
+            <span class="heart2" name="heart" id="heart7">&#10084;</span>
+            <span class="heart2" name="heart" id="heart8">&#10084;</span>
+            <span class="heart2" name="heart" id="heart9">&#10084;</span>
+            <span class="heart2" name="heart" id="heart10">&#10084;</span>
+        
+        <div id="popup">
+            <h1 id="winner"></h1>
+            <div class="spacer"></div>
+            <h3>Your Wins: <span id="p1wins">0</span></h3>
+            <h3>Computer Wins: <span id="p2wins">0</span></h3>
+            <div class="playAgain" onclick="PopupRemove()">Press any button or click here to continue!</div>
+        </div>
+<!--        Target------------------------------------------------------>
+        <div id="target">
+            <h1><br>Select Your weapon:<br>
+                1 - Rock</h1>
+                <div id="rock" onclick="play('rock')"></div>
+                <div class="spacer2"></div>
+                <h1>2 - paper</h1>
+            <div id="paper" onclick="play('paper')"></div>
+                <div class="spacer2"></div>
+                <h1>3 - Scissors</h1>
+                <div id="scissors" onclick="play('scissors')"></div>
+                <div class="spacer2"></div>
+                <h2>User Pick: <span id="uPick"></span></h2>
+                <h2>CPU Pick: <span id="cpuPick"></span></h2>
+            <div id="compchoice" class="scissors"></div>
+        </div>
+        
+<!--        Script----------------------------------------->
+        <script src="script.js"></script>
+    </body>
+</html>

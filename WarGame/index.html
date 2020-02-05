@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>War</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+<!--Code Here---------------------------------------------->
+        <div class="homepage"><h4><a href="../index.html">Back to homepage</a></h4></div>
+        <h1>War!</h1>
+            <div class="display">
+                <div class="uDisplay">
+                    <div>Player 1's Deck: <br><span id='uDeck'></span></div>
+                    <div>Player 1's Deck Length: <span id='uNum'></span></div>
+                </div>
+                <div class="cDisplay">
+                    <div>Player 2's Deck: <br><span id='cDeck'></span></div>
+                    <div>Player 2's Deck Length: <span id='cNum'></span></div>
+                </div>
+                <div id="TieCards">Cards won during last tie: <span id="TieArray"></span></div>
+                <div id="uCard">
+                    <div class="TL" id="UCard1"></div>
+                    <div class="big" id="UCard3"></div>
+                    <div class="BR" id="UCard2"></div>
+                </div>
+                <div id="cCard">
+                    <div class="TL" id="CCard1"></div>
+                    <div class="big" id="CCard3"></div>
+                    <div class="BR" id="CCard2"></div>
+                </div>
+        </div>
+        <br>
+        
+        <div class="button" onclick='play()'>Play!</div>
+        <div class="button" onclick='quickPlay()'>QuickPlay!</div>
+        <div class="button" onclick='deal()'>Deal!</div>
+        <div id="popup">
+            <div class="spacer2"></div>
+            <h2><span id="winner"></span> Wins!</h2>
+            <div class="spacer"></div>
+            <div class="button" onclick="playAgain()">Play Again!</div>
+        </div>
+        
+<!--Script------------------------------------------------->
+        <script src="script.js"></script>
+    </body>
+</html>

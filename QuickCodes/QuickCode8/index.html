@@ -1,0 +1,42 @@
+
+<!DOCTYPE html> 
+<html>
+    
+    <head>
+        <!--Joey McLaughlin, Java Script, period:2, 1/20/17-->
+        <title>JavaScript Pracice</title> 
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body> 
+        <div class="homepage"><h4><a href="../../index.html">Back to homepage</a></h4></div>
+        <div class="container">
+            <div id="main" onmouseout="makeRed('main')"; onclick="makeBlue('main')"></div>
+        </div>
+        
+        <div class="container2">
+            <div id="number1" onclick="right('number1', 'number2')"></div>
+            <div id="number2" onclick="left('number1', 'number2')"></div>
+        </div>
+        
+        <div class="container3"><h1 id="turn" onmouseover="turnAround('turn')"; onmouseout="turnBackAround('turn')">Turn Me Around!</h1></div>
+        
+        <div class="container4" onclick="grow('grow')"; ondblclick="ungrow('grow')"><h1 id="grow">Make Me Grow!</h1></div>
+        
+        <div class="container5">
+            <div id="TLC" onclick="round('TLC', 'TRC', 'BLC', 'BRC')"></div>
+            <div id="TRC" onclick="round('TLC', 'TRC', 'BLC', 'BRC')"></div>
+            <div id="BLC" onclick="round('TLC', 'TRC', 'BLC', 'BRC')"></div>
+            <div id="BRC" onclick="round('TLC', 'TRC', 'BLC', 'BRC')"></div>
+        </div>
+        
+        <div class="container6">
+            <div id="LT" onclick="purple('LT', 'RT', 'LB', 'RB')"; ondblclick="pur('LT', 'RT', 'LB', 'RB')"></div>
+            <div id="RT" onclick="purple('LT', 'RT', 'LB', 'RB')"; ondblclick="pur('LT', 'RT', 'LB', 'RB')"></div>
+            <div id="LB" onclick="purple('LT', 'RT', 'LB', 'RB')"; ondblclick="pur('LT', 'RT', 'LB', 'RB')"></div>
+            <div id="RB" onclick="purple('LT', 'RT', 'LB', 'RB')"; ondblclick="pur('LT', 'RT', 'LB', 'RB')"></div>
+        </div>
+        <div class="spacer"></div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
